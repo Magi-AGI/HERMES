@@ -1,0 +1,8 @@
+{"episode_id":"move-cube-001","t":0,"action":{"name":"approach","args":{"target":"tableA"}},"state":{"agent_pos":"near_tableA","cube":"gold"},"goals":{"ResourceTransfer":0.0},"context":{"env":"sim","scenario":"MoveCube","arousal":0.3,"focus":0.5}}
+{"episode_id":"move-cube-001","t":1,"action":{"name":"pickup","args":{"object":"cube_gold"}},"state":{"holding":null,"observation":{"too_heavy":true}},"goals":{"ResourceTransfer":0.0},"context":{"env":"sim","scenario":"MoveCube"}}
+{"episode_id":"move-cube-001","t":2,"action":{"name":"examine","args":{"object":"cube_gold"}},"state":{"knowledge":{"composition":"bricks"}},"goals":{"ResourceTransfer":0.0},"context":{"env":"sim","scenario":"MoveCube"}}
+{"episode_id":"move-cube-001","t":3,"action":{"name":"pickup","args":{"object":"brick_1"}},"state":{"inventory":["brick_1"]},"goals":{"ResourceTransfer":0.05},"context":{"env":"sim","scenario":"MoveCube"}}
+{"episode_id":"move-cube-001","t":4,"action":{"name":"place","args":{"object":"brick_1","location":"tableB"}},"state":{"progress":{"cube_rebuilt":0.1}},"goals":{"ResourceTransfer":0.1},"context":{"env":"sim","scenario":"MoveCube"}}
+{"episode_id":"move-cube-001","t":5,"action":{"name":"pickup","args":{"object":"brick_2"}},"state":{"inventory":["brick_2"]},"goals":{"ResourceTransfer":0.12},"context":{"env":"sim","scenario":"MoveCube"}}
+{"episode_id":"move-cube-001","t":6,"action":{"name":"place","args":{"object":"brick_2","location":"tableB"}},"state":{"progress":{"cube_rebuilt":0.2}},"goals":{"ResourceTransfer":0.18},"context":{"env":"sim","scenario":"MoveCube"}}
+

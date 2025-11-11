@@ -1,0 +1,5 @@
+{"episode_id":"hello-cube-001","t":0,"action":{"name":"approach","args":{"target":"tableA"}},"state":{"room":"lab","agent_pos":"near_tableA","inventory":[]},"goals":{"TaskCompletion":0.0,"Exploration":0.2},"context":{"env":"sim","agent":"NeoAgent1","scenario":"HelloCube","arousal":0.2,"focus":0.6}}
+{"episode_id":"hello-cube-001","t":1,"action":{"name":"pickup","args":{"object":"cubeA"}},"state":{"inventory":["cubeA"],"holding":"cubeA"},"goals":{"TaskCompletion":0.1,"Exploration":0.25},"context":{"env":"sim","agent":"NeoAgent1","scenario":"HelloCube","arousal":0.25,"focus":0.65}}
+{"episode_id":"hello-cube-001","t":2,"action":{"name":"place","args":{"object":"cubeA","location":"pointB"}},"state":{"world":{"cubeA":"pointB"}},"goals":{"TaskCompletion":0.5,"Exploration":0.25},"context":{"env":"sim","agent":"NeoAgent1","scenario":"HelloCube","arousal":0.22,"focus":0.7}}
+{"episode_id":"hello-cube-001","t":3,"action":{"name":"idle"},"state":{"world":{"cubeA":"pointB"}},"goals":{"TaskCompletion":0.5,"Exploration":0.26},"context":{"env":"sim","agent":"NeoAgent1","scenario":"HelloCube","arousal":0.18,"focus":0.6}}
+
