@@ -121,6 +121,10 @@ CHOICE — Autonomy and meaning
 └── MEANING_CREATION — Purpose and significance
     └── IDENTITY_FORMATION — Developing sense of self
 
+Motivational grounding
+- The MAGUS goals above and the modulators used in Context are grounded in the OpenPsi / PSI-theory style demand system and Bach’s six-modulator framework, as synthesized in the MAGUS research materials (for example, the “Paper Synthesis: OpenPsi, ROCCA, and Metagoals for MAGUS” card in the magi-archive Decko wiki).
+- HERMES treats these goal and modulator symbols as externally defined; its responsibility is to record how actions influence their satisfaction over time, not to re-specify their internal dynamics.
+
 Modulators (Bach's 6-Modulator Framework):
 - pleasure ∈ [0,1]: Emotional valence (negative → positive)
   - Effect on scoring: 0.9 + 0.2×pleasure → [0.9, 1.1] multiplier
@@ -147,4 +151,3 @@ Context and Provenance
 
 Persistence
 - Use MORK to persist Atomspace contents; measure round‑trip fidelity of all above atoms.
-

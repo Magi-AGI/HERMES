@@ -18,10 +18,13 @@ Scope
 - Non‑goals: building a new planner, UI visualization, or a new miner (we integrate with hyperon‑miner).
 
 Assumptions
+- Early MAGUS/OpenPsi deployments (per Mattermost thread summaries) operate with static OpenPsi rules, hill-climbing or Thompson Sampling action selection, and LLM/Python helpers, with dynamic rule learning and full PLN-based reasoning expected only after a fast MeTTa compiler and PLN integration land (roughly early 2026). HERMES is explicitly designed to ingest traces and build causal graphs under these pragmatic constraints, without assuming PLN is available.
+
 - Default datasets will come from example games; logs effectively connect goal‑motivated actions → action effects → goal satisfactions, but not explicitly, and delays may exist between action and eventual satisfaction.
 - Pattern miner: use an approach similar to ../../hyperon reference/hyperon-miner and ../../hyperon reference/hyperon-miner-2 for discovering causal/frequent motifs.
 - Persistence via MORK (../../hyperon reference/MORK). No solid PLN example yet; integration left as future work.
 - MAGUS goals and modulators are defined in ../metta-magus/. Use canonical names from that repo (e.g., modulators: pleasure, arousal, dominance, focus, resolution, exteroception).
+- The MAGUS goal taxonomy and modulators themselves are grounded in OpenPsi / PSI-theory style demands and Bach's six-modulator framework, as synthesized in the MAGUS research notes (for example, the "Paper Synthesis: OpenPsi, ROCCA, and Metagoals for MAGUS" card in the magi-archive wiki). HERMES assumes that motivational grounding and focuses on causal attribution over those signals.
 
 Success Criteria
 - Extracts causal links (Action → ΔState → Goal) with calibrated confidences from traces with temporal delays.
@@ -197,4 +200,3 @@ Open Questions
 - Desired default horizon H and goal‑specific γ_g, λ_g; any domain‑specific priors for lag distributions.
 - Preferred API exposure beyond MeTTa (HTTP/gRPC/message bus) and expected throughput.
 - Target hardware profile for performance baselines and MORK configuration.
-

@@ -133,6 +133,9 @@ Data Flow (high‑level)
 
 Operational Notes
 - MeTTa modules are organized per metta-best-practices with dedicated spaces (&kb for facts, &self for rules/queries/tests).
-- Pattern miner runs can be scheduled batch‑wise on accumulated facts; streaming updates use incremental motifs when available.
+- Pattern miner runs can be scheduled batch-wise on accumulated facts; streaming updates use incremental motifs when available.
 - All graph operations tag Context and TimeWindow for selective retrieval and evaluation.
 
+Hyperon event integration
+- In Hyperon-based deployments, the Ingestion module is expected to receive traces either directly from an EventAgent-style event bus (`&event_bus` / `queue-subscription` in `hyperon-experimental`) or from a logging stream produced by those agents.
+- HERMES does not depend on a specific bus implementation, but the default MAGUS stack assumes EventAgent as the upstream producer of the trace JSON described in `message-contracts.md`.
