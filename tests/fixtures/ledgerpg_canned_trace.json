@@ -1,0 +1,102 @@
+{
+  "episode_id": "ep-canned-0001",
+  "terminal_reason": "target_reached",
+  "success": true,
+  "events": [
+    {
+      "episode_id": "ep-canned-0001",
+      "t": 1,
+      "action": {"name": "move-N", "args": {}},
+      "valid_actions": ["move-N", "move-NE", "move-SE", "move-S", "move-SW", "move-NW", "examine", "rest"],
+      "state": {"agent": {"q": 3, "r": 4, "energy": 0.95}, "tile": {"type": "empty"}, "visited_count": 2, "food_remaining": 2},
+      "state_delta": [
+        {"kind": "position", "from": [3, 5], "to": [3, 4]},
+        {"kind": "energy", "delta": -0.05, "from": 1.0, "to": 0.95},
+        {"kind": "tile-discovered", "at": [3, 4]}
+      ],
+      "goals": {"EXPLORATION_INCENTIVE": 0.08, "ENERGY_REGULATION": 0.95},
+      "context": {"scenario": "LedgeRPG-MVP", "seed": 42}
+    },
+    {
+      "episode_id": "ep-canned-0001",
+      "t": 2,
+      "action": {"name": "move-N", "args": {}},
+      "valid_actions": ["move-N", "move-NE", "move-SE", "move-S", "move-SW", "move-NW", "examine", "rest"],
+      "state": {"agent": {"q": 3, "r": 3, "energy": 0.90}, "tile": {"type": "food"}, "visited_count": 3, "food_remaining": 2},
+      "state_delta": [
+        {"kind": "position", "from": [3, 4], "to": [3, 3]},
+        {"kind": "energy", "delta": -0.05, "from": 0.95, "to": 0.90},
+        {"kind": "tile-discovered", "at": [3, 3]}
+      ],
+      "goals": {"EXPLORATION_INCENTIVE": 0.12, "ENERGY_REGULATION": 0.90},
+      "context": {"scenario": "LedgeRPG-MVP", "seed": 42}
+    },
+    {
+      "episode_id": "ep-canned-0001",
+      "t": 3,
+      "action": {"name": "examine", "args": {}},
+      "valid_actions": ["move-N", "move-NE", "move-SE", "move-S", "move-SW", "move-NW", "examine", "rest"],
+      "state": {"agent": {"q": 3, "r": 3, "energy": 1.0}, "tile": {"type": "empty"}, "visited_count": 3, "food_remaining": 1},
+      "state_delta": [
+        {"kind": "food-consumed", "at": [3, 3]},
+        {"kind": "energy", "delta": 0.10, "from": 0.90, "to": 1.0}
+      ],
+      "goals": {"EXPLORATION_INCENTIVE": 0.12, "ENERGY_REGULATION": 1.0},
+      "context": {"scenario": "LedgeRPG-MVP", "seed": 42}
+    },
+    {
+      "episode_id": "ep-canned-0001",
+      "t": 4,
+      "action": {"name": "move-NE", "args": {}},
+      "valid_actions": ["move-N", "move-NE", "move-SE", "move-S", "move-SW", "move-NW", "examine", "rest"],
+      "state": {"agent": {"q": 4, "r": 3, "energy": 0.95}, "tile": {"type": "empty"}, "visited_count": 4, "food_remaining": 1},
+      "state_delta": [
+        {"kind": "position", "from": [3, 3], "to": [4, 3]},
+        {"kind": "energy", "delta": -0.05, "from": 1.0, "to": 0.95},
+        {"kind": "tile-discovered", "at": [4, 3]}
+      ],
+      "goals": {"EXPLORATION_INCENTIVE": 0.16, "ENERGY_REGULATION": 0.95},
+      "context": {"scenario": "LedgeRPG-MVP", "seed": 42}
+    },
+    {
+      "episode_id": "ep-canned-0001",
+      "t": 5,
+      "action": {"name": "move-NE", "args": {}},
+      "valid_actions": ["move-N", "move-NE", "move-SE", "move-S", "move-SW", "move-NW", "examine", "rest"],
+      "state": {"agent": {"q": 4, "r": 3, "energy": 0.95}, "tile": {"type": "empty"}, "visited_count": 4, "food_remaining": 1},
+      "state_delta": [
+        {"kind": "position", "from": [4, 3], "to": [4, 3]},
+        {"kind": "movement-blocked"}
+      ],
+      "goals": {"EXPLORATION_INCENTIVE": 0.16, "ENERGY_REGULATION": 0.95},
+      "context": {"scenario": "LedgeRPG-MVP", "seed": 42}
+    },
+    {
+      "episode_id": "ep-canned-0001",
+      "t": 6,
+      "action": {"name": "move-N", "args": {}},
+      "valid_actions": ["move-N", "move-NE", "move-SE", "move-S", "move-SW", "move-NW", "examine", "rest"],
+      "state": {"agent": {"q": 4, "r": 2, "energy": 0.90}, "tile": {"type": "food"}, "visited_count": 5, "food_remaining": 1},
+      "state_delta": [
+        {"kind": "position", "from": [4, 3], "to": [4, 2]},
+        {"kind": "energy", "delta": -0.05, "from": 0.95, "to": 0.90},
+        {"kind": "tile-discovered", "at": [4, 2]}
+      ],
+      "goals": {"EXPLORATION_INCENTIVE": 0.20, "ENERGY_REGULATION": 0.90},
+      "context": {"scenario": "LedgeRPG-MVP", "seed": 42}
+    },
+    {
+      "episode_id": "ep-canned-0001",
+      "t": 7,
+      "action": {"name": "examine", "args": {}},
+      "valid_actions": ["move-N", "move-NE", "move-SE", "move-S", "move-SW", "move-NW", "examine", "rest"],
+      "state": {"agent": {"q": 4, "r": 2, "energy": 1.0}, "tile": {"type": "empty"}, "visited_count": 5, "food_remaining": 0},
+      "state_delta": [
+        {"kind": "food-consumed", "at": [4, 2]},
+        {"kind": "energy", "delta": 0.10, "from": 0.90, "to": 1.0}
+      ],
+      "goals": {"EXPLORATION_INCENTIVE": 0.20, "ENERGY_REGULATION": 1.0},
+      "context": {"scenario": "LedgeRPG-MVP", "seed": 42}
+    }
+  ]
+}
