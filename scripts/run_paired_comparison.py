@@ -101,6 +101,10 @@ def main() -> int:
         default=DEFAULT_MIN_CONFIDENCE,
         help="confidence threshold for --aggregation=group_mean_filtered",
     )
+    parser.add_argument("--grid-size", type=int, default=8)
+    parser.add_argument("--step-limit", type=int, default=100)
+    parser.add_argument("--food-count", type=int, default=5)
+    parser.add_argument("--obstacle-count", type=int, default=8)
     args = parser.parse_args()
 
     seeds = _parse_seed_range(args.seeds)
@@ -118,6 +122,13 @@ def main() -> int:
         f"aggregation={args.aggregation} min_confidence={args.min_confidence}...",
         flush=True,
     )
+    start_cfg_template = StartConfig(
+        seed=0,
+        grid_size=args.grid_size,
+        step_limit=args.step_limit,
+        food_count=args.food_count,
+        obstacle_count=args.obstacle_count,
+    )
     with open(out_path, "w", encoding="utf-8") as fh:
         for i, seed in enumerate(seeds, 1):
             baseline, feedback = run_paired_comparison_hyperon(
@@ -126,6 +137,7 @@ def main() -> int:
                 seed=seed,
                 aggregation=args.aggregation,
                 min_confidence=args.min_confidence,
+                start_cfg=start_cfg_template,
             )
             fh.write(json.dumps(_summarize_pair(seed, baseline, feedback)) + "\n")
             fh.flush()

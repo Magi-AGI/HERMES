@@ -37,6 +37,7 @@ class Observation:
     energy: float
     visited_count: int
     food_remaining: int
+    food_initial: int
     last_tile_type: str
     goals: Dict[str, float]
     valid_actions: Tuple[str, ...]

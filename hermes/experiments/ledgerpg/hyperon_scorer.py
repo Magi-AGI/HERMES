@@ -125,7 +125,7 @@ class HyperonScorer:
         obs: Observation,
         candidates: List[Action],
     ) -> List[Tuple[Action, float]]:
-        self._publish_goal_state(obs.goals)
+        self._publish_goal_state(self._goals_with_food_pursuit(obs))
         self._publish_context(obs)
         out: List[Tuple[Action, float]] = []
         for a in candidates:
@@ -142,7 +142,7 @@ class HyperonScorer:
 
         Useful for the paper's per-step audit log and for the parity harness.
         """
-        self._publish_goal_state(obs.goals)
+        self._publish_goal_state(self._goals_with_food_pursuit(obs))
         self._publish_context(obs)
         out: List[Tuple[Action, Decomposition]] = []
         for a in candidates:
@@ -151,6 +151,23 @@ class HyperonScorer:
         return out
 
     # -- internal --
+
+    @staticmethod
+    def _goals_with_food_pursuit(obs: Observation) -> dict:
+        """Synthesize FOOD_PURSUIT satisfaction from food_remaining/food_initial.
+
+        Published alongside the server-provided goals so the adapter can treat
+        it identically via `(ledgerpg-goal-value FOOD_PURSUIT $default)`.
+        """
+        merged = dict(obs.goals)
+        initial = int(getattr(obs, "food_initial", 0) or 0)
+        remaining = int(obs.food_remaining)
+        if initial > 0:
+            sat = max(0.0, min(1.0, (initial - remaining) / initial))
+        else:
+            sat = 1.0
+        merged["FOOD_PURSUIT"] = sat
+        return merged
 
     def _publish_goal_state(self, goals: dict) -> None:
         # Hyperon 0.2.10: bind!+new-space doesn't clear; remove prior atoms first.

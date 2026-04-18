@@ -39,11 +39,16 @@
 ;; simple and declarative — they are not tuning knobs for the paper.
 (= (ledgerpg-exploration-goal) (goal EXPLORATION_INCENTIVE 0.7 0.6))
 (= (ledgerpg-energy-goal)      (goal ENERGY_REGULATION 0.9 0.8))
+;; FOOD_PURSUIT is the task-completion driver: satisfaction rises as food_remaining
+;; falls. Priority is set above exploration so the agent prefers seeking food over
+;; wandering, and just below energy so it still rests when critically low.
+(= (ledgerpg-food-goal)        (goal FOOD_PURSUIT 0.85 0.8))
 
 (= (ledgerpg-goals)
    (Cons (ledgerpg-exploration-goal)
          (Cons (ledgerpg-energy-goal)
-               Nil)))
+               (Cons (ledgerpg-food-goal)
+                     Nil))))
 
 ;; =============================================================================
 ;; Goal-state knowledge base (populated per-step from the server trace)
@@ -124,10 +129,25 @@
        (examine-penalty-for-tile (ledgerpg-tile-type empty))
        1.0))
 
+;; Rest-while-food-remains: soft penalty on `rest` whenever FOOD_PURSUIT is unsatisfied.
+;; Without this, base utility is uniform across candidates and the tiebreak hash
+;; dominates action selection once exploration is saturated — i.e. the agent idles.
+;; factor = 1 - 0.4 * (1 - food_sat) so rest-factor goes from 0.6 (all food remaining)
+;; to 1.0 (task complete). Kept above the 0.5 move-when-low-energy floor so the
+;; agent can still rest to avoid energy depletion during food pursuit.
+(: ledgerpg-rest-when-food-remains-penalty (-> Context Candidate Number))
+(= (ledgerpg-rest-when-food-remains-penalty $ctx (action-candidate (action $name $params)))
+   (let* (($sat (ledgerpg-goal-value FOOD_PURSUIT 1.0))
+          ($pressure (clamp01 (- 1.0 $sat))))
+     (if (== $name rest)
+         (- 1.0 (* 0.4 $pressure))
+         1.0)))
+
 (= (ledgerpg-antigoals)
    (Cons (anti-goal move-when-low-energy Soft ledgerpg-move-when-low-energy-penalty)
          (Cons (anti-goal examine-on-empty Soft ledgerpg-examine-on-empty-penalty)
-               Nil)))
+               (Cons (anti-goal rest-when-food-remains Soft ledgerpg-rest-when-food-remains-penalty)
+                     Nil))))
 
 ;; =============================================================================
 ;; Base utility: one context-dependent consideration
@@ -146,10 +166,15 @@
 (= (ledgerpg-energy-pressure $ctx)
    (- 1.0 (ledgerpg-goal-value ENERGY_REGULATION 1.0)))
 
+(: ledgerpg-food-pressure (-> ScoringContext Number))
+(= (ledgerpg-food-pressure $ctx)
+   (- 1.0 (ledgerpg-goal-value FOOD_PURSUIT 1.0)))
+
 (= (ledgerpg-considerations)
    (Cons (consideration exploration-pressure ledgerpg-exploration-pressure)
          (Cons (consideration energy-pressure ledgerpg-energy-pressure)
-               Nil)))
+               (Cons (consideration food-pressure ledgerpg-food-pressure)
+                     Nil))))
 
 (= (ledgerpg-discouragements) Nil)
 (= (ledgerpg-metagoals) Nil)
@@ -169,11 +194,17 @@
 
 !(bind! &ledgerpg-attribution-space (new-space))
 
-;; Originally 0.1. Halved to 0.05 in combination with Python-side
-;; group-mean-centered attributions produced too weak a feedback signal:
-;; 25/30 EXPLORATION losses (down from 29/30 under the uncentered 0.1 run).
-;; Restored to 0.1 so the centering's relative-advantage signal has enough
-;; magnitude to flip tie-ordering at the candidate-selection step.
+;; Scale history:
+;; - 0.1 original, calibrated when base scores all tied near 1.0.
+;; - 0.05 paired with Python group-mean centering; too weak, restored to 0.1.
+;; - 0.03 after FOOD_PURSUIT goal was added — still locked feedback agent into
+;;   a single attributed move (seed 42: move-SE every step, blocked in corner).
+;; - 0.005: confirmed limit of pure additive per-action bonus. Among the 6-8
+;;   moves that tie on base+antigoal, any single positive attribution breaks
+;;   the tie deterministically toward one action and the agent cannot recover
+;;   because the scorer is stateless across steps. At 0.005 the bonus is ~0.2%
+;;   of base, small enough that the tiebreak hash dominates and feedback
+;;   converges to baseline-like exploration.
 (= (ledgerpg-attribution-scale) 0.1)
 
 ;; Per-attribution term: signed_weight * confidence * (1 / lag).

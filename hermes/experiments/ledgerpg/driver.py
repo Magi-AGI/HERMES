@@ -69,7 +69,7 @@ class EpisodeResult:
     raw_events: List[Dict[str, Any]] = field(default_factory=list)
 
 
-def _observation_from_trace(trace: Dict[str, Any]) -> Observation:
+def _observation_from_trace(trace: Dict[str, Any], food_initial: int) -> Observation:
     state = trace.get("state", {})
     agent = state.get("agent", {})
     tile = state.get("tile", {})
@@ -78,6 +78,7 @@ def _observation_from_trace(trace: Dict[str, Any]) -> Observation:
         energy=float(agent.get("energy", 1.0)),
         visited_count=int(state.get("visited_count", 0)),
         food_remaining=int(state.get("food_remaining", 0)),
+        food_initial=food_initial,
         last_tile_type=str(tile.get("type", "empty")),
         goals=dict(trace.get("goals", {})),
         valid_actions=tuple(trace.get("valid_actions", [])),
@@ -102,6 +103,7 @@ def _pick_best(
     seed: int,
     step_index: int,
 ) -> Action:
+    """Pick the top-scoring action; deterministic hash tiebreak on exact ties."""
     scored_sorted = sorted(
         scored,
         key=lambda x: (-x[1], _tiebreak_key(seed, step_index, x[0])),
@@ -140,6 +142,7 @@ def run_episode(
         energy=float(initial_state.get("energy", 1.0)),
         visited_count=int(initial_state.get("visited_count", 0)),
         food_remaining=cfg.food_count,
+        food_initial=cfg.food_count,
         last_tile_type=str(initial_state.get("last_tile_type", "empty")),
         goals=dict(initial_goals),
         # Valid actions are a fixed 8-action set per the LedgeRPG spec.
@@ -165,7 +168,7 @@ def run_episode(
             success = bool(resp.get("success", False))
             break
 
-        obs = _observation_from_trace(trace)
+        obs = _observation_from_trace(trace, food_initial=cfg.food_count)
 
     client.end_episode(episode_id)
 
@@ -218,6 +221,7 @@ def run_paired_comparison_hyperon(
     seed: int,
     aggregation: str = "none",
     min_confidence: float = DEFAULT_MIN_CONFIDENCE,
+    start_cfg: Optional[StartConfig] = None,
 ) -> Tuple[EpisodeResult, EpisodeResult]:
     """Per-seed comparison for Option B (attributions injected into MAGUS).
 
@@ -230,12 +234,27 @@ def run_paired_comparison_hyperon(
     same seed, same bias-free driver. ``aggregation`` selects the transform
     applied between the two conditions (see ``_aggregate_for_feedback``).
     """
+    def _cfg(s: int) -> StartConfig:
+        if start_cfg is None:
+            return StartConfig(seed=s)
+        return StartConfig(
+            seed=s,
+            grid_size=start_cfg.grid_size,
+            step_limit=start_cfg.step_limit,
+            food_count=start_cfg.food_count,
+            obstacle_count=start_cfg.obstacle_count,
+        )
+
     scorer.update_attributions([])
-    baseline = run_episode(client, scorer, seed=seed, bias=BiasTable.zero())
+    baseline = run_episode(
+        client, scorer, seed=seed, bias=BiasTable.zero(), start_cfg=_cfg(seed)
+    )
     feedback_attrs = _aggregate_for_feedback(
         baseline.attributions, aggregation, min_confidence=min_confidence
     )
     scorer.update_attributions(feedback_attrs)
-    feedback = run_episode(client, scorer, seed=seed, bias=BiasTable.zero())
+    feedback = run_episode(
+        client, scorer, seed=seed, bias=BiasTable.zero(), start_cfg=_cfg(seed)
+    )
     scorer.update_attributions([])
     return baseline, feedback
