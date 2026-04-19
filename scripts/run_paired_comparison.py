@@ -36,6 +36,7 @@ from hermes.experiments.ledgerpg.driver import (
     run_paired_comparison_hyperon,
 )
 from hermes.experiments.ledgerpg.hyperon_scorer import HyperonScorer
+from hermes.experiments.ledgerpg.petta_scorer import PettaScorer
 from hermes.experiments.ledgerpg.reasoning import format_episode
 from hermes.experiments.ledgerpg.scoring import Observation
 
@@ -86,6 +87,16 @@ def main() -> int:
     parser.add_argument("--trace-out", default="results/trace.txt")
     parser.add_argument("--magus-root", default=None)
     parser.add_argument(
+        "--scorer",
+        choices=("hyperon", "petta"),
+        default="petta",
+        help=(
+            "MeTTa backend for MAGUS Scoring v2. 'petta' uses the "
+            "petta_compat bundle + Prolog math grounding (231x faster at "
+            "bit-exact parity with Hyperon on a 648-score grid)."
+        ),
+    )
+    parser.add_argument(
         "--aggregation",
         choices=AGGREGATION_MODES,
         default="none",
@@ -112,13 +123,16 @@ def main() -> int:
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
     client = LedgeRPGClient(base_url=args.base_url)
-    scorer = HyperonScorer(
-        magus_root=Path(args.magus_root) if args.magus_root else None
-    )
+    if args.scorer == "hyperon":
+        scorer = HyperonScorer(
+            magus_root=Path(args.magus_root) if args.magus_root else None
+        )
+    else:
+        scorer = PettaScorer()
 
     trace_pair: Tuple[EpisodeResult, EpisodeResult] | None = None
     print(
-        f"loading scorer (magus_root={args.magus_root or 'default'}) "
+        f"loading scorer={args.scorer} (magus_root={args.magus_root or 'default'}) "
         f"aggregation={args.aggregation} min_confidence={args.min_confidence}...",
         flush=True,
     )

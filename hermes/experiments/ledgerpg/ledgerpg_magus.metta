@@ -60,7 +60,6 @@
 !(bind! &ledgerpg-goal-state (new-space))
 
 ;; Lookup helper: returns the live value for a goal name, or a default.
-(: ledgerpg-goal-value (-> Symbol Number Number))
 (= (ledgerpg-goal-value $name $default)
    (let $v (match &ledgerpg-goal-state (goal-value $name $x) $x)
      (if (== $v ()) $default $v)))
@@ -80,7 +79,6 @@
 ;; Enumerated explicitly for all 8 LedgeRPG actions so exactly one equation
 ;; matches any given action symbol. A `$_` catchall would cause MeTTa to
 ;; reduce both the specific and the catchall, duplicating downstream results.
-(: action-is-move (-> Symbol Bool))
 (= (action-is-move move-N) True)
 (= (action-is-move move-NE) True)
 (= (action-is-move move-SE) True)
@@ -90,7 +88,6 @@
 (= (action-is-move examine) False)
 (= (action-is-move rest) False)
 
-(: clamp01 (-> Number Number))
 (= (clamp01 $x)
    (if (< $x 0) 0
        (if (> $x 1) 1 $x)))
@@ -99,7 +96,6 @@
 ;; paths later, extend this with a second equation — do not add a generic
 ;; `$other` fallback, because MeTTa's rewriter would explore both paths and
 ;; emit duplicate identical results.
-(: ledgerpg-move-when-low-energy-penalty (-> Context Candidate Number))
 (= (ledgerpg-move-when-low-energy-penalty $ctx (action-candidate (action $name $params)))
    (let* (($energy (ledgerpg-goal-value ENERGY_REGULATION 1.0))
           ($depletion (clamp01 (/ (- 0.3 $energy) 0.3))))
@@ -112,18 +108,15 @@
 ;; ties at final=1.0 in early game and the Python tiebreak locks the agent
 ;; into examine-forever.
 
-(: ledgerpg-tile-type (-> Symbol Symbol))
 (= (ledgerpg-tile-type $default)
    (let $t (match &ledgerpg-goal-state (tile-type $x) $x)
      (if (== $t ()) $default $t)))
 
-(: examine-penalty-for-tile (-> Symbol Number))
 (= (examine-penalty-for-tile empty) 0.3)
 (= (examine-penalty-for-tile wall)  1.0)
 (= (examine-penalty-for-tile food)  1.0)
 (= (examine-penalty-for-tile obstacle) 1.0)
 
-(: ledgerpg-examine-on-empty-penalty (-> Context Candidate Number))
 (= (ledgerpg-examine-on-empty-penalty $ctx (action-candidate (action $name $params)))
    (if (== $name examine)
        (examine-penalty-for-tile (ledgerpg-tile-type empty))
@@ -135,7 +128,6 @@
 ;; factor = 1 - 0.4 * (1 - food_sat) so rest-factor goes from 0.6 (all food remaining)
 ;; to 1.0 (task complete). Kept above the 0.5 move-when-low-energy floor so the
 ;; agent can still rest to avoid energy depletion during food pursuit.
-(: ledgerpg-rest-when-food-remains-penalty (-> Context Candidate Number))
 (= (ledgerpg-rest-when-food-remains-penalty $ctx (action-candidate (action $name $params)))
    (let* (($sat (ledgerpg-goal-value FOOD_PURSUIT 1.0))
           ($pressure (clamp01 (- 1.0 $sat))))
@@ -158,15 +150,12 @@
 ;; HERMES bonus below. Formula: reward unsatisfied goals, so the agent has
 ;; positive utility to act at all.
 
-(: ledgerpg-exploration-pressure (-> ScoringContext Number))
 (= (ledgerpg-exploration-pressure $ctx)
    (- 1.0 (ledgerpg-goal-value EXPLORATION_INCENTIVE 0.0)))
 
-(: ledgerpg-energy-pressure (-> ScoringContext Number))
 (= (ledgerpg-energy-pressure $ctx)
    (- 1.0 (ledgerpg-goal-value ENERGY_REGULATION 1.0)))
 
-(: ledgerpg-food-pressure (-> ScoringContext Number))
 (= (ledgerpg-food-pressure $ctx)
    (- 1.0 (ledgerpg-goal-value FOOD_PURSUIT 1.0)))
 
@@ -210,13 +199,11 @@
 ;; Per-attribution term: signed_weight * confidence * (1 / lag).
 ;; The 1/lag factor is a no-op at the paper's lag=1 but makes the framework
 ;; lag-aware for any future multi-step attribution extension.
-(: ledgerpg-attribution-term (-> Number Number Number Number))
 (= (ledgerpg-attribution-term $signed-w $conf $lag)
    (if (> $lag 0)
        (/ (* $signed-w $conf) $lag)
        0))
 
-(: ledgerpg-attribution-bonus-for (-> Symbol Number))
 (= (ledgerpg-attribution-bonus-for $action-name)
    (let $terms
      (collapse
@@ -228,7 +215,6 @@
          (* (ledgerpg-attribution-scale)
             (foldl-atom $terms 0 $acc $x (+ $acc $x))))))
 
-(: ledgerpg-candidate-bonus (-> Candidate Number))
 (= (ledgerpg-candidate-bonus (action-candidate (action $name $params)))
    (ledgerpg-attribution-bonus-for $name))
 
@@ -242,36 +228,20 @@
 ;; (via ledgerpg-score-breakdown-hermes) and folded into the comparable
 ;; final score.
 
-(: score-decision-v2-hermes (-> Candidate
-                                (List Consideration)
-                                (List Discouragement)
-                                (List Metagoal)
-                                (List AntiGoal)
-                                ScoringContext
-                                DecisionScore))
 (= (score-decision-v2-hermes $cand $cons $dis $meta $anti $ctx)
    (let* (($stock (score-decision-v2 $cand $cons $dis $meta $anti $ctx))
           ($bonus (ledgerpg-candidate-bonus $cand)))
      (ledgerpg-add-hermes-bonus $stock $bonus)))
 
-(: ledgerpg-add-hermes-bonus (-> DecisionScore Number DecisionScore))
 (= (ledgerpg-add-hermes-bonus (decision-score $b $m $o $a $f) $bonus)
    (decision-score $b $m $o $a (+ $f $bonus)))
 
 ;; Diagnostic: return the bonus alongside the stock breakdown, for the driver's
 ;; per-step decomposition log. A 6-tuple: (base, meta, over, anti, hermes, final).
-(: score-decision-v2-hermes-breakdown (-> Candidate
-                                          (List Consideration)
-                                          (List Discouragement)
-                                          (List Metagoal)
-                                          (List AntiGoal)
-                                          ScoringContext
-                                          Expression))
 (= (score-decision-v2-hermes-breakdown $cand $cons $dis $meta $anti $ctx)
    (let* (($stock (score-decision-v2 $cand $cons $dis $meta $anti $ctx))
           ($bonus (ledgerpg-candidate-bonus $cand)))
      (ledgerpg-breakdown-of $stock $bonus)))
 
-(: ledgerpg-breakdown-of (-> DecisionScore Number Expression))
 (= (ledgerpg-breakdown-of (decision-score $b $m $o $a $f) $bonus)
    (breakdown $b $m $o $a $bonus (+ $f $bonus)))
