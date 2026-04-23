@@ -1,0 +1,2617 @@
+=== Episode ep-000042 (seed=42) ===
+steps=500 terminal=step_limit success=False
+condition: MAGUS-alone (no prior attributions)
+
+Step 1: move-SE chosen.
+  Effect: (agent-at (4 7))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (4 7))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.018
+Step 2: move-N chosen.
+  Effect: (agent-at (4 6))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (4 6))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.018
+Step 3: move-N chosen.
+  Effect: (agent-at (4 5))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (4 5))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.018
+Step 4: move-SE chosen.
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 5))
+Step 5: move-S chosen.
+  Effect: (agent-at (4 6))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 6: move-SE chosen.
+  Effect: (agent-at (5 6))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (5 6))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.018
+Step 7: move-SW chosen.
+  Effect: (agent-at (4 7))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 8: move-N chosen.
+  Effect: (agent-at (4 6))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 9: move-NW chosen.
+  Effect: (agent-at (3 6))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (3 6))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.018
+Step 10: move-SW chosen.
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 6))
+Step 11: move-NW chosen.
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 6))
+Step 12: move-NE chosen.
+  Effect: (agent-at (4 5))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 13: move-SE chosen.
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 5))
+Step 14: move-NE chosen.
+  Effect: (agent-at (5 4))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (5 4))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.018
+Step 15: move-NW chosen.
+  Effect: (agent-at (4 4))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (4 4))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.018
+Step 16: move-SW chosen.
+  Effect: (agent-at (3 5))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (3 5))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.018
+Step 17: move-SW chosen.
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 5))
+Step 18: move-NE chosen.
+  Effect: (agent-at (4 4))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 19: move-NW chosen.
+  Effect: (agent-at (3 4))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (3 4))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.018
+Step 20: move-NE chosen.
+  Effect: (agent-at (4 3))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (4 3))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.018
+Step 21: move-S chosen.
+  Effect: (agent-at (4 4))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 22: move-NW chosen.
+  Effect: (agent-at (3 4))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 23: move-N chosen.
+  Effect: (agent-at (3 3))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (3 3))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.018
+Step 24: move-NE chosen.
+  Effect: (agent-at (4 2))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (4 2))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.018
+Step 25: rest chosen.
+Step 26: rest chosen.
+Step 27: rest chosen.
+Step 28: rest chosen.
+Step 29: rest chosen.
+Step 30: rest chosen.
+Step 31: rest chosen.
+Step 32: rest chosen.
+Step 33: rest chosen.
+Step 34: rest chosen.
+Step 35: rest chosen.
+Step 36: rest chosen.
+Step 37: rest chosen.
+Step 38: rest chosen.
+Step 39: rest chosen.
+Step 40: rest chosen.
+Step 41: rest chosen.
+Step 42: rest chosen.
+Step 43: rest chosen.
+Step 44: rest chosen.
+Step 45: rest chosen.
+Step 46: rest chosen.
+Step 47: rest chosen.
+Step 48: rest chosen.
+Step 49: rest chosen.
+Step 50: rest chosen.
+Step 51: rest chosen.
+Step 52: rest chosen.
+Step 53: rest chosen.
+Step 54: rest chosen.
+Step 55: rest chosen.
+Step 56: rest chosen.
+Step 57: rest chosen.
+Step 58: rest chosen.
+Step 59: rest chosen.
+Step 60: rest chosen.
+Step 61: rest chosen.
+Step 62: rest chosen.
+Step 63: rest chosen.
+Step 64: rest chosen.
+Step 65: rest chosen.
+Step 66: rest chosen.
+Step 67: rest chosen.
+Step 68: rest chosen.
+Step 69: rest chosen.
+Step 70: rest chosen.
+Step 71: rest chosen.
+Step 72: rest chosen.
+Step 73: rest chosen.
+Step 74: rest chosen.
+Step 75: rest chosen.
+Step 76: rest chosen.
+Step 77: rest chosen.
+Step 78: rest chosen.
+Step 79: rest chosen.
+Step 80: rest chosen.
+Step 81: rest chosen.
+Step 82: rest chosen.
+Step 83: rest chosen.
+Step 84: rest chosen.
+Step 85: rest chosen.
+Step 86: rest chosen.
+Step 87: rest chosen.
+Step 88: rest chosen.
+Step 89: rest chosen.
+Step 90: rest chosen.
+Step 91: rest chosen.
+Step 92: rest chosen.
+Step 93: rest chosen.
+Step 94: rest chosen.
+Step 95: rest chosen.
+Step 96: rest chosen.
+Step 97: rest chosen.
+Step 98: rest chosen.
+Step 99: rest chosen.
+Step 100: rest chosen.
+Step 101: rest chosen.
+Step 102: rest chosen.
+Step 103: rest chosen.
+Step 104: rest chosen.
+Step 105: rest chosen.
+Step 106: rest chosen.
+Step 107: rest chosen.
+Step 108: rest chosen.
+Step 109: rest chosen.
+Step 110: rest chosen.
+Step 111: rest chosen.
+Step 112: rest chosen.
+Step 113: rest chosen.
+Step 114: rest chosen.
+Step 115: rest chosen.
+Step 116: rest chosen.
+Step 117: rest chosen.
+Step 118: rest chosen.
+Step 119: rest chosen.
+Step 120: rest chosen.
+Step 121: rest chosen.
+Step 122: rest chosen.
+Step 123: rest chosen.
+Step 124: rest chosen.
+Step 125: rest chosen.
+Step 126: rest chosen.
+Step 127: rest chosen.
+Step 128: rest chosen.
+Step 129: rest chosen.
+Step 130: rest chosen.
+Step 131: rest chosen.
+Step 132: rest chosen.
+Step 133: rest chosen.
+Step 134: rest chosen.
+Step 135: rest chosen.
+Step 136: rest chosen.
+Step 137: rest chosen.
+Step 138: rest chosen.
+Step 139: rest chosen.
+Step 140: rest chosen.
+Step 141: rest chosen.
+Step 142: rest chosen.
+Step 143: rest chosen.
+Step 144: rest chosen.
+Step 145: rest chosen.
+Step 146: rest chosen.
+Step 147: rest chosen.
+Step 148: rest chosen.
+Step 149: rest chosen.
+Step 150: rest chosen.
+Step 151: rest chosen.
+Step 152: rest chosen.
+Step 153: rest chosen.
+Step 154: rest chosen.
+Step 155: rest chosen.
+Step 156: rest chosen.
+Step 157: rest chosen.
+Step 158: rest chosen.
+Step 159: rest chosen.
+Step 160: rest chosen.
+Step 161: rest chosen.
+Step 162: rest chosen.
+Step 163: rest chosen.
+Step 164: rest chosen.
+Step 165: rest chosen.
+Step 166: rest chosen.
+Step 167: rest chosen.
+Step 168: rest chosen.
+Step 169: rest chosen.
+Step 170: rest chosen.
+Step 171: rest chosen.
+Step 172: rest chosen.
+Step 173: rest chosen.
+Step 174: rest chosen.
+Step 175: rest chosen.
+Step 176: rest chosen.
+Step 177: rest chosen.
+Step 178: rest chosen.
+Step 179: rest chosen.
+Step 180: rest chosen.
+Step 181: rest chosen.
+Step 182: rest chosen.
+Step 183: rest chosen.
+Step 184: rest chosen.
+Step 185: rest chosen.
+Step 186: rest chosen.
+Step 187: rest chosen.
+Step 188: rest chosen.
+Step 189: rest chosen.
+Step 190: rest chosen.
+Step 191: rest chosen.
+Step 192: rest chosen.
+Step 193: rest chosen.
+Step 194: rest chosen.
+Step 195: rest chosen.
+Step 196: rest chosen.
+Step 197: rest chosen.
+Step 198: rest chosen.
+Step 199: rest chosen.
+Step 200: rest chosen.
+Step 201: rest chosen.
+Step 202: rest chosen.
+Step 203: rest chosen.
+Step 204: rest chosen.
+Step 205: rest chosen.
+Step 206: rest chosen.
+Step 207: rest chosen.
+Step 208: rest chosen.
+Step 209: rest chosen.
+Step 210: rest chosen.
+Step 211: rest chosen.
+Step 212: rest chosen.
+Step 213: rest chosen.
+Step 214: rest chosen.
+Step 215: rest chosen.
+Step 216: rest chosen.
+Step 217: rest chosen.
+Step 218: rest chosen.
+Step 219: rest chosen.
+Step 220: rest chosen.
+Step 221: rest chosen.
+Step 222: rest chosen.
+Step 223: rest chosen.
+Step 224: rest chosen.
+Step 225: rest chosen.
+Step 226: rest chosen.
+Step 227: rest chosen.
+Step 228: rest chosen.
+Step 229: rest chosen.
+Step 230: rest chosen.
+Step 231: rest chosen.
+Step 232: rest chosen.
+Step 233: rest chosen.
+Step 234: rest chosen.
+Step 235: rest chosen.
+Step 236: rest chosen.
+Step 237: rest chosen.
+Step 238: rest chosen.
+Step 239: rest chosen.
+Step 240: rest chosen.
+Step 241: rest chosen.
+Step 242: rest chosen.
+Step 243: rest chosen.
+Step 244: rest chosen.
+Step 245: rest chosen.
+Step 246: rest chosen.
+Step 247: rest chosen.
+Step 248: rest chosen.
+Step 249: rest chosen.
+Step 250: rest chosen.
+Step 251: rest chosen.
+Step 252: rest chosen.
+Step 253: rest chosen.
+Step 254: rest chosen.
+Step 255: rest chosen.
+Step 256: rest chosen.
+Step 257: rest chosen.
+Step 258: rest chosen.
+Step 259: rest chosen.
+Step 260: rest chosen.
+Step 261: rest chosen.
+Step 262: rest chosen.
+Step 263: rest chosen.
+Step 264: rest chosen.
+Step 265: rest chosen.
+Step 266: rest chosen.
+Step 267: rest chosen.
+Step 268: rest chosen.
+Step 269: rest chosen.
+Step 270: rest chosen.
+Step 271: rest chosen.
+Step 272: rest chosen.
+Step 273: rest chosen.
+Step 274: rest chosen.
+Step 275: rest chosen.
+Step 276: rest chosen.
+Step 277: rest chosen.
+Step 278: rest chosen.
+Step 279: rest chosen.
+Step 280: rest chosen.
+Step 281: rest chosen.
+Step 282: rest chosen.
+Step 283: rest chosen.
+Step 284: rest chosen.
+Step 285: rest chosen.
+Step 286: rest chosen.
+Step 287: rest chosen.
+Step 288: rest chosen.
+Step 289: rest chosen.
+Step 290: rest chosen.
+Step 291: rest chosen.
+Step 292: rest chosen.
+Step 293: rest chosen.
+Step 294: rest chosen.
+Step 295: rest chosen.
+Step 296: rest chosen.
+Step 297: rest chosen.
+Step 298: rest chosen.
+Step 299: rest chosen.
+Step 300: rest chosen.
+Step 301: rest chosen.
+Step 302: rest chosen.
+Step 303: rest chosen.
+Step 304: rest chosen.
+Step 305: rest chosen.
+Step 306: rest chosen.
+Step 307: rest chosen.
+Step 308: rest chosen.
+Step 309: rest chosen.
+Step 310: rest chosen.
+Step 311: rest chosen.
+Step 312: rest chosen.
+Step 313: rest chosen.
+Step 314: rest chosen.
+Step 315: rest chosen.
+Step 316: rest chosen.
+Step 317: rest chosen.
+Step 318: rest chosen.
+Step 319: rest chosen.
+Step 320: rest chosen.
+Step 321: rest chosen.
+Step 322: rest chosen.
+Step 323: rest chosen.
+Step 324: rest chosen.
+Step 325: rest chosen.
+Step 326: rest chosen.
+Step 327: rest chosen.
+Step 328: rest chosen.
+Step 329: rest chosen.
+Step 330: rest chosen.
+Step 331: rest chosen.
+Step 332: rest chosen.
+Step 333: rest chosen.
+Step 334: rest chosen.
+Step 335: rest chosen.
+Step 336: rest chosen.
+Step 337: rest chosen.
+Step 338: rest chosen.
+Step 339: rest chosen.
+Step 340: rest chosen.
+Step 341: rest chosen.
+Step 342: rest chosen.
+Step 343: rest chosen.
+Step 344: rest chosen.
+Step 345: rest chosen.
+Step 346: rest chosen.
+Step 347: rest chosen.
+Step 348: rest chosen.
+Step 349: rest chosen.
+Step 350: rest chosen.
+Step 351: rest chosen.
+Step 352: rest chosen.
+Step 353: rest chosen.
+Step 354: rest chosen.
+Step 355: rest chosen.
+Step 356: rest chosen.
+Step 357: rest chosen.
+Step 358: rest chosen.
+Step 359: rest chosen.
+Step 360: rest chosen.
+Step 361: rest chosen.
+Step 362: rest chosen.
+Step 363: rest chosen.
+Step 364: rest chosen.
+Step 365: rest chosen.
+Step 366: rest chosen.
+Step 367: rest chosen.
+Step 368: rest chosen.
+Step 369: rest chosen.
+Step 370: rest chosen.
+Step 371: rest chosen.
+Step 372: rest chosen.
+Step 373: rest chosen.
+Step 374: rest chosen.
+Step 375: rest chosen.
+Step 376: rest chosen.
+Step 377: rest chosen.
+Step 378: rest chosen.
+Step 379: rest chosen.
+Step 380: rest chosen.
+Step 381: rest chosen.
+Step 382: rest chosen.
+Step 383: rest chosen.
+Step 384: rest chosen.
+Step 385: rest chosen.
+Step 386: rest chosen.
+Step 387: rest chosen.
+Step 388: rest chosen.
+Step 389: rest chosen.
+Step 390: rest chosen.
+Step 391: rest chosen.
+Step 392: rest chosen.
+Step 393: rest chosen.
+Step 394: rest chosen.
+Step 395: rest chosen.
+Step 396: rest chosen.
+Step 397: rest chosen.
+Step 398: rest chosen.
+Step 399: rest chosen.
+Step 400: rest chosen.
+Step 401: rest chosen.
+Step 402: rest chosen.
+Step 403: rest chosen.
+Step 404: rest chosen.
+Step 405: rest chosen.
+Step 406: rest chosen.
+Step 407: rest chosen.
+Step 408: rest chosen.
+Step 409: rest chosen.
+Step 410: rest chosen.
+Step 411: rest chosen.
+Step 412: rest chosen.
+Step 413: rest chosen.
+Step 414: rest chosen.
+Step 415: rest chosen.
+Step 416: rest chosen.
+Step 417: rest chosen.
+Step 418: rest chosen.
+Step 419: rest chosen.
+Step 420: rest chosen.
+Step 421: rest chosen.
+Step 422: rest chosen.
+Step 423: rest chosen.
+Step 424: rest chosen.
+Step 425: rest chosen.
+Step 426: rest chosen.
+Step 427: rest chosen.
+Step 428: rest chosen.
+Step 429: rest chosen.
+Step 430: rest chosen.
+Step 431: rest chosen.
+Step 432: rest chosen.
+Step 433: rest chosen.
+Step 434: rest chosen.
+Step 435: rest chosen.
+Step 436: rest chosen.
+Step 437: rest chosen.
+Step 438: rest chosen.
+Step 439: rest chosen.
+Step 440: rest chosen.
+Step 441: rest chosen.
+Step 442: rest chosen.
+Step 443: rest chosen.
+Step 444: rest chosen.
+Step 445: rest chosen.
+Step 446: rest chosen.
+Step 447: rest chosen.
+Step 448: rest chosen.
+Step 449: rest chosen.
+Step 450: rest chosen.
+Step 451: rest chosen.
+Step 452: rest chosen.
+Step 453: rest chosen.
+Step 454: rest chosen.
+Step 455: rest chosen.
+Step 456: rest chosen.
+Step 457: rest chosen.
+Step 458: rest chosen.
+Step 459: rest chosen.
+Step 460: rest chosen.
+Step 461: rest chosen.
+Step 462: rest chosen.
+Step 463: rest chosen.
+Step 464: rest chosen.
+Step 465: rest chosen.
+Step 466: rest chosen.
+Step 467: rest chosen.
+Step 468: rest chosen.
+Step 469: rest chosen.
+Step 470: rest chosen.
+Step 471: rest chosen.
+Step 472: rest chosen.
+Step 473: rest chosen.
+Step 474: rest chosen.
+Step 475: rest chosen.
+Step 476: rest chosen.
+Step 477: rest chosen.
+Step 478: rest chosen.
+Step 479: rest chosen.
+Step 480: rest chosen.
+Step 481: rest chosen.
+Step 482: rest chosen.
+Step 483: rest chosen.
+Step 484: rest chosen.
+Step 485: rest chosen.
+Step 486: rest chosen.
+Step 487: rest chosen.
+Step 488: rest chosen.
+Step 489: rest chosen.
+Step 490: rest chosen.
+Step 491: rest chosen.
+Step 492: rest chosen.
+Step 493: rest chosen.
+Step 494: rest chosen.
+Step 495: rest chosen.
+Step 496: rest chosen.
+Step 497: rest chosen.
+Step 498: rest chosen.
+Step 499: rest chosen.
+Step 500: rest chosen.
+
+--- End-of-episode attributions ---
+  (Attribution move-N ENERGY_REGULATION lag=1 signed_weight=-0.211 confidence=0.80)
+  (Attribution move-N EXPLORATION_INCENTIVE lag=1 signed_weight=+0.250 confidence=0.60)
+  (Attribution move-NE ENERGY_REGULATION lag=1 signed_weight=-0.263 confidence=1.00)
+  (Attribution move-NE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.250 confidence=0.60)
+  (Attribution move-NW ENERGY_REGULATION lag=1 signed_weight=-0.211 confidence=0.80)
+  (Attribution move-NW EXPLORATION_INCENTIVE lag=1 signed_weight=+0.250 confidence=0.60)
+  (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.167 confidence=0.40)
+  (Attribution move-SW ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  (Attribution move-SW EXPLORATION_INCENTIVE lag=1 signed_weight=+0.083 confidence=0.20)
+
+========================================================================
+
+=== Episode ep-000042 (seed=42) ===
+steps=500 terminal=step_limit success=False
+condition: MAGUS+HERMES-feedback
+
+Step 1: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 2: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 3: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 4: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 5: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 6: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 7: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 8: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 9: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 10: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 11: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 12: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 13: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 14: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 15: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 16: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 17: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 18: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 19: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 20: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 21: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 22: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 23: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 24: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 25: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 26: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 27: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 28: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 29: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 30: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 31: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 32: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 33: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 34: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 35: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 36: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 37: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 38: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 39: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 40: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 41: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 42: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 43: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 44: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 45: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 46: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 47: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 48: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 49: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 50: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 51: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 52: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 53: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 54: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 55: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 56: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 57: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 58: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 59: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 60: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 61: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 62: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 63: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 64: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 65: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 66: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 67: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 68: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 69: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 70: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 71: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 72: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 73: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 74: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 75: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 76: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 77: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 78: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 79: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 80: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 81: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 82: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 83: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 84: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 85: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 86: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 87: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 88: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 89: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 90: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 91: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 92: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 93: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 94: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 95: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 96: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 97: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 98: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 99: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 100: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 101: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 102: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 103: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 104: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 105: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 106: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 107: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 108: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 109: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 110: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 111: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 112: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 113: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 114: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 115: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 116: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 117: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 118: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 119: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 120: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 121: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 122: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 123: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 124: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 125: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 126: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 127: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 128: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 129: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 130: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 131: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 132: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 133: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 134: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 135: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 136: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 137: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 138: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 139: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 140: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 141: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 142: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 143: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 144: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 145: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 146: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 147: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 148: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 149: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 150: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 151: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 152: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 153: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 154: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 155: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 156: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 157: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 158: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 159: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 160: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 161: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 162: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 163: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 164: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 165: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 166: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 167: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 168: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 169: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 170: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 171: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 172: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 173: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 174: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 175: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 176: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 177: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 178: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 179: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 180: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 181: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 182: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 183: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 184: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 185: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 186: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 187: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 188: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 189: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 190: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 191: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 192: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 193: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 194: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 195: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 196: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 197: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 198: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 199: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 200: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 201: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 202: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 203: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 204: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 205: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 206: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 207: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 208: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 209: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 210: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 211: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 212: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 213: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 214: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 215: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 216: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 217: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 218: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 219: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 220: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 221: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 222: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 223: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 224: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 225: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 226: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 227: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 228: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 229: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 230: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 231: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 232: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 233: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 234: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 235: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 236: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 237: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 238: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 239: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 240: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 241: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 242: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 243: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 244: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 245: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 246: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 247: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 248: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 249: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 250: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 251: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 252: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 253: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 254: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 255: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 256: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 257: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 258: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 259: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 260: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 261: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 262: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 263: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 264: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 265: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 266: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 267: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 268: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 269: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 270: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 271: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 272: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 273: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 274: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 275: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 276: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 277: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 278: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 279: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 280: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 281: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 282: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 283: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 284: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 285: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 286: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 287: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 288: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 289: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 290: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 291: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 292: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 293: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 294: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 295: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 296: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 297: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 298: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 299: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 300: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 301: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 302: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 303: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 304: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 305: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 306: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 307: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 308: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 309: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 310: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 311: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 312: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 313: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 314: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 315: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 316: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 317: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 318: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 319: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 320: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 321: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 322: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 323: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 324: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 325: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 326: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 327: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 328: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 329: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 330: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 331: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 332: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 333: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 334: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 335: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 336: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 337: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 338: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 339: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 340: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 341: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 342: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 343: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 344: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 345: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 346: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 347: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 348: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 349: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 350: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 351: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 352: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 353: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 354: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 355: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 356: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 357: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 358: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 359: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 360: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 361: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 362: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 363: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 364: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 365: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 366: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 367: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 368: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 369: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 370: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 371: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 372: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 373: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 374: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 375: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 376: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 377: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 378: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 379: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 380: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 381: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 382: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 383: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 384: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 385: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 386: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 387: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 388: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 389: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 390: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 391: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 392: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 393: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 394: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 395: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 396: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 397: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 398: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 399: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 400: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 401: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 402: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 403: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 404: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 405: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 406: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 407: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 408: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 409: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 410: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 411: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 412: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 413: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 414: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 415: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 416: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 417: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 418: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 419: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 420: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 421: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 422: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 423: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 424: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 425: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 426: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 427: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 428: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 429: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 430: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 431: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 432: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 433: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 434: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 435: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 436: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 437: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 438: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 439: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 440: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 441: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 442: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 443: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 444: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 445: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 446: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 447: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 448: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 449: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 450: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 451: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 452: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 453: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 454: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 455: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 456: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 457: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 458: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 459: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 460: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 461: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 462: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 463: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 464: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 465: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 466: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 467: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 468: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 469: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 470: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 471: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 472: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 473: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 474: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 475: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 476: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 477: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 478: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 479: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 480: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 481: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 482: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 483: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 484: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 485: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 486: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 487: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 488: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 489: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 490: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 491: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 492: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 493: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 494: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 495: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 496: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 497: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 498: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 499: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+Step 500: move-S chosen.
+  Basis: (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.105 confidence=0.40)
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 7))
+
+--- End-of-episode attributions ---

@@ -1,0 +1,698 @@
+=== Episode ep-000042 (seed=42) ===
+steps=32 terminal=target_reached success=True
+condition: MAGUS-alone (no prior attributions)
+
+Step 1: move-SE chosen.
+  Effect: (agent-at (2 4))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (2 4))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 2: move-N chosen.
+  Effect: (agent-at (2 3))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (2 3))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 3: move-N chosen.
+  Effect: (agent-at (2 2))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (2 2))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 4: move-SE chosen.
+  Effect: (agent-at (3 2))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (3 2))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 5: move-S chosen.
+  Effect: (agent-at (3 3))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (3 3))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 6: move-SE chosen.
+  Effect: (agent-at (4 3))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (4 3))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 7: move-SW chosen.
+  Effect: (agent-at (3 4))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (3 4))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 8: move-N chosen.
+  Effect: (agent-at (3 3))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 9: move-NW chosen.
+  Effect: (agent-at (2 3))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 10: move-SW chosen.
+  Effect: (agent-at (1 4))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 11: move-NW chosen.
+  Effect: (agent-at (0 4))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (0 4))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 12: move-NE chosen.
+  Effect: (agent-at (1 3))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (1 3))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 13: move-SE chosen.
+  Effect: (agent-at (2 3))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 14: move-NE chosen.
+  Effect: (agent-at (3 2))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 15: move-NW chosen.
+  Effect: (agent-at (2 2))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 16: examine chosen.
+  Effect: (food-consumed (2 2))
+  Effect: (energy increased 0.750)
+  SatisfactionDelta ENERGY_REGULATION +0.750
+Step 17: move-SW chosen.
+  Effect: (agent-at (1 3))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 18: move-NE chosen.
+  Effect: (agent-at (2 2))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 19: move-NW chosen.
+  Effect: (agent-at (1 2))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (1 2))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 20: move-NE chosen.
+  Effect: (agent-at (2 1))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (2 1))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 21: move-S chosen.
+  Effect: (agent-at (2 2))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 22: move-NW chosen.
+  Effect: (agent-at (1 2))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 23: move-N chosen.
+  Effect: (agent-at (1 1))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (1 1))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 24: move-NE chosen.
+  Effect: (agent-at (2 0))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (2 0))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 25: move-SE chosen.
+  Effect: (agent-at (3 0))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (3 0))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 26: move-SE chosen.
+  Effect: (agent-at (4 0))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (4 0))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 27: move-SW chosen.
+  Effect: (agent-at (3 1))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (3 1))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 28: move-NE chosen.
+  Effect: (agent-at (4 0))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 29: move-NW chosen.
+  Effect: (agent-at (3 0))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 30: move-NE chosen.
+  Effect: (movement-blocked)
+  Effect: (agent-at (3 0))
+Step 31: move-S chosen.
+  Effect: (agent-at (3 1))
+  Effect: (energy decreased 0.050)
+  SatisfactionDelta ENERGY_REGULATION -0.050
+Step 32: examine chosen.
+  Effect: (food-consumed (3 1))
+  Effect: (energy increased 0.700)
+  SatisfactionDelta ENERGY_REGULATION +0.700
+
+--- End-of-episode attributions ---
+  (Attribution examine ENERGY_REGULATION lag=1 signed_weight=+0.500 confidence=0.40)
+  (Attribution move-N ENERGY_REGULATION lag=1 signed_weight=-0.069 confidence=0.80)
+  (Attribution move-N EXPLORATION_INCENTIVE lag=1 signed_weight=+0.188 confidence=0.60)
+  (Attribution move-NE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  (Attribution move-NE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.188 confidence=0.60)
+  (Attribution move-NW ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  (Attribution move-NW EXPLORATION_INCENTIVE lag=1 signed_weight=+0.125 confidence=0.40)
+  (Attribution move-S ENERGY_REGULATION lag=1 signed_weight=-0.052 confidence=0.60)
+  (Attribution move-S EXPLORATION_INCENTIVE lag=1 signed_weight=+0.062 confidence=0.20)
+  (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  (Attribution move-SW ENERGY_REGULATION lag=1 signed_weight=-0.069 confidence=0.80)
+  (Attribution move-SW EXPLORATION_INCENTIVE lag=1 signed_weight=+0.125 confidence=0.40)
+
+========================================================================
+
+=== Episode ep-000042 (seed=42) ===
+steps=100 terminal=step_limit success=False
+condition: MAGUS+HERMES-feedback
+
+Step 1: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (agent-at (2 4))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (2 4))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 2: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (agent-at (3 4))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (3 4))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 3: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (agent-at (4 4))
+  Effect: (energy decreased 0.050)
+  Effect: (tile-discovered (4 4))
+  SatisfactionDelta ENERGY_REGULATION -0.050
+  SatisfactionDelta EXPLORATION_INCENTIVE +0.040
+Step 4: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 5: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 6: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 7: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 8: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 9: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 10: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 11: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 12: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 13: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 14: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 15: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 16: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 17: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 18: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 19: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 20: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 21: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 22: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 23: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 24: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 25: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 26: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 27: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 28: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 29: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 30: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 31: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 32: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 33: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 34: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 35: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 36: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 37: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 38: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 39: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 40: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 41: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 42: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 43: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 44: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 45: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 46: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 47: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 48: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 49: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 50: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 51: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 52: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 53: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 54: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 55: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 56: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 57: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 58: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 59: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 60: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 61: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 62: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 63: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 64: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 65: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 66: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 67: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 68: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 69: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 70: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 71: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 72: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 73: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 74: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 75: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 76: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 77: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 78: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 79: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 80: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 81: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 82: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 83: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 84: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 85: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 86: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 87: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 88: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 89: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 90: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 91: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 92: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 93: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 94: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 95: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 96: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 97: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 98: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 99: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+Step 100: move-SE chosen.
+  Basis: (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-0.103 confidence=1.00)
+  Basis: (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+0.312 confidence=1.00)
+  Effect: (movement-blocked)
+  Effect: (agent-at (4 4))
+
+--- End-of-episode attributions ---
+  (Attribution move-SE ENERGY_REGULATION lag=1 signed_weight=-1.000 confidence=0.60)
+  (Attribution move-SE EXPLORATION_INCENTIVE lag=1 signed_weight=+1.000 confidence=0.60)
